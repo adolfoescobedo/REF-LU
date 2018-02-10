@@ -1,0 +1,30 @@
+Please run the following after installation to make sure everything compiled correctly.
+
+***********************NOTE: GMP MUST be installed************************
+
+First, type make, then:
+
+./REF_LU.exe -n 50 -b 10 -c 1 -a 123
+./REF_LU_v2.exe Demos/demo50.mat Demos/demo50.rhs 123
+./Q_mat.exe -n 50 -b 10 -c 1
+
+For the first two executables, you should receive a message that looks like:
+
+REF LU Time: XXXX
+REF LU is correct
+
+Doolittle LU Time: XXXX
+Doolittle LU is correct
+
+Crout LU Time: XXXX
+Crout LU is correct
+
+For the last executable, you should receive a message that looks like:
+
+REF LU Time: XXXX
+REF LU is correct
+
+Q Mat Time: XXXX
+Q Mat is correct
+
+If all problems say correct then your code has compiled correctly and is ready to use!
