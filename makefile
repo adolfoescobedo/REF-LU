@@ -4,7 +4,7 @@
 CC  = gcc
 CCC = g++
 debug = -g -o
-optimize = -o
+optimize = -O2 -o
 
 #--------------------------------------------------------------------
 #Library flags
